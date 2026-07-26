@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path=".github/workflows/build-and-test.yml" />
+    <File Path=".github/workflows/publish-preview.yml" />
+    <File Path=".github/workflows/publish.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="README.md" />
+    <File Path="Version.props" />
+  </Folder>
+  <Project Path="D:/Projects/TagBites/TagBites.IO.AzureBlob/src/TagBites.IO.AzureBlob/TagBites.IO.AzureBlob.csproj" />
+  <Project Path="D:/Projects/TagBites/TagBites.IO.AzureBlob/tests/TagBites.IO.AzureBlob.Tests/TagBites.IO.AzureBlob.Tests.csproj" />
+</Solution>
