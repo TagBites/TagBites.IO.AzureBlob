@@ -29,6 +29,6 @@ public class AzureBlobFileSystemTests
     [Fact]
     public void Create_NullContainerName_Throws()
     {
-        Assert.Throws<ArgumentNullException>(() => AzureBlobFileSystem.Create(ConnectionString, null));
+        Assert.Throws<ArgumentNullException>(() => AzureBlobFileSystem.Create(ConnectionString, null!));
     }
 }
