@@ -4,12 +4,16 @@
     <File Path=".github/workflows/publish-preview.yml" />
     <File Path=".github/workflows/publish.yml" />
   </Folder>
-  <Folder Name="/Solution Items/">
+  <Folder Name="/.root/">
+    <File Path=".editorconfig" />
     <File Path=".gitignore" />
+    <File Path="CHANGELOG.md" />
     <File Path="Directory.Build.props" />
     <File Path="Directory.Build.targets" />
+    <File Path="global.json" />
+    <File Path="LICENSE.md" />
     <File Path="README.md" />
-    <File Path="Version.props" />
+    <File Path="SECURITY.md" />
   </Folder>
   <Project Path="D:/Projects/TagBites/TagBites.IO.AzureBlob/src/TagBites.IO.AzureBlob/TagBites.IO.AzureBlob.csproj" />
   <Project Path="D:/Projects/TagBites/TagBites.IO.AzureBlob/tests/TagBites.IO.AzureBlob.Tests/TagBites.IO.AzureBlob.Tests.csproj" />
