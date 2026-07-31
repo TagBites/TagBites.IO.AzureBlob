@@ -180,7 +180,7 @@ internal class AzureBlobFileSystemOperations : IFileSystemAsyncWriteOperations, 
                     continue; // this directory's own marker, not a child
 
                 // A recursive listing includes nested subdirectories' marker blobs too, so this branch needs its own SearchForFiles/SearchForDirectories check per item.
-                if (blobItem.Name.EndsWith(DirectoryMarkerName))
+                if (blobItem.Name.EndsWith(DirectoryMarkerName, StringComparison.Ordinal))
                 {
                     if (options.SearchForDirectories)
                     {
